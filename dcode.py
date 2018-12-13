@@ -9,7 +9,7 @@ decoded_bytes = str()
 
 for i in range(l):
 
-	#iterating on even numbers as beginning of the block
+    #iterating on even numbers as beginning of the block
     block=encoded_bytes[i*2:i*2+2]
 
     #returns the Unicode code point and masks by the lower 4 bits
