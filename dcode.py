@@ -25,7 +25,7 @@ for i in range(l):
 
     decoded_bytes+=decoded_byte
 
-printable_decoded_bytes = b''.join(c for c in decoded_bytes if c in string.printable)
+printable_decoded_bytes = ''.join(c for c in decoded_bytes if c in string.printable)
 
 #ASCII display
 print printable_decoded_bytes
